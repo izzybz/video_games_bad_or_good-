@@ -1,0 +1,92 @@
+
+h1 {
+   	color : Red;
+}
+   	
+   	p {
+   	color : Black;
+}
+
+body {
+   margin : 0;
+}
+
+
+
+
+
+   	
+  #navbar {
+      list-style-type: none;
+       margin: 0;
+       padding: 0;
+       background-color: black;
+       overflow:hidden
+       /*border: 1px solid blue;*/
+       width: 200px;
+       position:fixed;
+       top:0;
+       width:100%;
+       
+  } 
+  
+.navitem a.active {
+       background-color:white;
+       color:black;
+}  
+
+.navitem a {
+    display:block;
+    color: orange;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+
+
+  
+  
+  .navitem {
+      text-align:center;
+       /*border-bottom: 1px solid blue;*/
+       float:left; 
+    }
+  
+  
+  
+  
+  
+  
+  .navitem:last-child {
+       border-bottom: none;
+       }
+  
+  
+  
+  
+  .navitem a:hover:not(.active) {
+     display: block;
+     color: black;
+     background-color: orange
+      
+      
+}     	
+
+
+
+
+
+
+
+#main {
+  margin-top:30px;
+  padding:20px;
+
+
+
+
+}
+
+
+
+
